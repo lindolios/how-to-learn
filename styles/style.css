@@ -5,6 +5,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*начало блока header*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -72,7 +73,9 @@ width: 183px;
   height: 32px;
   z-index: 2;
 }
+/*конец блока header*/
 
+/*начало блока header*/
 .description {
   width: 100%;
   margin-top: 100px;
@@ -104,7 +107,6 @@ width: 183px;
   flex-direction: column;
   width: 80%;
   align-self: flex-start;
-
 }
 
 
@@ -126,7 +128,9 @@ width: 183px;
   font-size: 24px;
   font-weight: bold;
 }
+/*конец блока header*/
 
+/*начало блока digits*/
 .digits{
   display: flex;
   align-items: center;
@@ -189,16 +193,9 @@ width: 183px;
   margin-top: 20px;
   margin-bottom: 0;
 }
+/*конец блока digits*/
 
-li {
-  list-style-type: none;
-}
-
-ul{
-  margin-left: 0;
-  padding-left: 0;
-}
-
+/*начало блока feynman*/
 .feynman{
   display: flex;
   margin-top: 100px;
@@ -241,7 +238,9 @@ ul{
   top: 50%;
   right: 48px;
 }
+/*конец блока feynman*/
 
+/*начало блока kaufman*/
 .kaufman{
   overflow: hidden;
   display: flex;
@@ -303,7 +302,9 @@ width: 877px;
 z-index: 0;
 top: 0;
 }
+/*конец блока kaufman*/
 
+/*начало блока footer*/
 .footer{
   background: #1f1f1f;
   min-height: 350px;
@@ -407,4 +408,13 @@ top: 0;
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+/*конец блока footer*/
 
