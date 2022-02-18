@@ -141,7 +141,7 @@
   flex-direction: column;
 }
 
-.section__title {
+.section-title {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -153,7 +153,7 @@
   margin-bottom: 20px;
 }
 
-.section__subtitle {
+.section-subtitle {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
